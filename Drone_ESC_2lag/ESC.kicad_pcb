@@ -18247,7 +18247,7 @@
 	(footprint "Drone_ESC:QFN50P900X900X100-65N-D"
 		(layer "F.Cu")
 		(uuid "e04609b4-15b0-402a-89f0-4ab9613693bf")
-		(at 168.5375 53.095)
+		(at 171.05 51.5)
 		(descr "STSPIN32G4")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
