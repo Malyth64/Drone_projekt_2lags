@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "796e85ee-4c78-482f-8b73-3b2f64a234eb")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 74.93)
+		(size 55.88 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57446196-9dfe-4798-8f6d-b459f21ddea1")
+		(property "Sheetname" "Current sensing"
+			(at 114.3 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 114.3 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 17.78)
+		(size 81.28 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "955d8acc-11ea-4edc-b2a7-50f1a5b90526")
+		(property "Sheetname" "Power Stage"
+			(at 20.32 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Stage.kicad_sch"
+			(at 20.32 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 74.93)
+		(size 100.33 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd76192a-2071-4669-8849-fd6eb973df91")
+		(property "Sheetname" "STSPIN32G4 controller"
+			(at 180.34 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STSPIN32G4.kicad_sch"
+			(at 180.34 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 77.47)
+		(size 81.28 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb08d7e4-c6ab-4603-8a28-f846d02316ab")
+		(property "Sheetname" "Input & outputs"
+			(at 20.32 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inout.kicad_sch"
+			(at 20.32 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

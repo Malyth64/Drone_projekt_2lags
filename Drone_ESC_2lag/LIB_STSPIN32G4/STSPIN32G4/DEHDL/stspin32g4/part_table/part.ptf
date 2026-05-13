@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STSPIN32G4'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STSPIN32G4" (!) = "", "QFN50P900X900X100-65N-D", "Quad Flat No-Lead", "511-STSPIN32G4", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STSPIN32G4?qs=DRkmTr78QAT8JT82Qbof2g%3D%3D", "High performance 3-phase motor controller with embedded STM32G4 MCU", "https://www.st.com/resource/en/datasheet/stspin32g4.pdf", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STSPIN32G4
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=65
+Version=2.1
+Released=2021-04-15 12:40:24
+Downloaded=2026-03-11 12:47:47
+3D=Y

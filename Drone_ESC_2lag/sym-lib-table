@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STSPIN32G4")(type "KiCad")(uri "${KIPRJMOD}/LIB_STSPIN32G4/STSPIN32G4/KiCad/STSPIN32G4.kicad_sym")(options "")(descr ""))
+)

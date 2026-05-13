@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STSPIN32G4"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-15-12:40:24)
+    (mountForm default
+        (footprintRef "QFN50P900X900X100-65N-D")
+        (spec "System")
+    )
+)

@@ -1,0 +1,17 @@
+.STSPIN32G4 :1 ;High performance 3-phase motor controller with embedded STM32G4 MCU
+QFN50P900X900X100-65N-D
+*STM IC
+*NGS
+*PLB 1="REG3V3/VDD" 2="VBAT" 3="PC13" 4="PC14" 5="PC15" 6="PF0" 7="PF1" 8="PG10" 9="PC0" 10="PC1" 11="PC2" 12="PC3" 13="PA0" 14="PA1" 15="PA2" 16="PA3" 17="PA4" 18="PA5" 19="PA6" 20="PA7" 21="PC4" 22="PC5" 23="PB0" 24="PB1" 25="PB2" 26="VREF+" 27="VDDA" 28="PB10" 29="GLS1" 30="GLS2" 31="GLS3" 32="PGND" 33="NC_1" 34="NC_2" 35="BOOT3" 36="OUT3" 37="GHS3" 38="BOOT2" 39="OUT2" 40="GHS2" 41="BOOT1" 42="OUT1" 43="GHS1" 44="PA8" 45="PA9" 46="PA10" 47="PA11" &
+48="PA12" 49="PA13" 50="PA14" 51="PA15" 52="SCREF" 53="PD2" 54="PB3" 55="PB4" 56="PB5" 57="PB6" 58="PB7" 59="PB8" 60="PB9" 61="VM" 62="SW" 63="VCC" 64="REGIN" 65="VSS"
+*MXP 65
+*DFN STSPIN32G4
+~!Mouser Part Number (511-STSPIN32G4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STSPIN32G4?qs=DRkmTr78QAT8JT82Qbof2g%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STSPIN32G4)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/stspin32g4.pdf)
+~!Height (1mm)
+~!3D_Model (STSPIN32G4)
+STSPIN32G4
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 65.1!U 64.1!U 63.1!U 62.1!U 61.1!U 60.1!U 59.1!U 58.1!U 57.1!U 56.1!U 55.1!U 54.1!U 53.1!U 52.1!U 51.1!U 50.1!U 49.1!U 

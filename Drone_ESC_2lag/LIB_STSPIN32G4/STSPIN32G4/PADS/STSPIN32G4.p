@@ -1,0 +1,82 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+STSPIN32G4 QFN50P900X900X100-65N-D I ANA 7 1 0 0 0
+TIMESTAMP 2026.03.11.12.47.47
+"Mouser Part Number" 511-STSPIN32G4
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STSPIN32G4?qs=DRkmTr78QAT8JT82Qbof2g%3D%3D
+"Manufacturer_Name" STMicroelectronics
+"Manufacturer_Part_Number" STSPIN32G4
+"Description" High performance 3-phase motor controller with embedded STM32G4 MCU
+"Datasheet Link" https://www.st.com/resource/en/datasheet/stspin32g4.pdf
+"Geometry.Height" 1mm
+GATE 1 65 0
+STSPIN32G4
+1 0 U REG3V3/VDD
+2 0 U VBAT
+3 0 U PC13
+4 0 U PC14
+5 0 U PC15
+6 0 U PF0
+7 0 U PF1
+8 0 U PG10
+9 0 U PC0
+10 0 U PC1
+11 0 U PC2
+12 0 U PC3
+13 0 U PA0
+14 0 U PA1
+15 0 U PA2
+16 0 U PA3
+17 0 U PA4
+18 0 U PA5
+19 0 U PA6
+20 0 U PA7
+21 0 U PC4
+22 0 U PC5
+23 0 U PB0
+24 0 U PB1
+25 0 U PB2
+26 0 U VREF+
+27 0 U VDDA
+28 0 U PB10
+29 0 U GLS1
+30 0 U GLS2
+31 0 U GLS3
+32 0 U PGND
+48 0 U PA12
+47 0 U PA11
+46 0 U PA10
+45 0 U PA9
+44 0 U PA8
+43 0 U GHS1
+42 0 U OUT1
+41 0 U BOOT1
+40 0 U GHS2
+39 0 U OUT2
+38 0 U BOOT2
+37 0 U GHS3
+36 0 U OUT3
+35 0 U BOOT3
+34 0 U NC_2
+33 0 U NC_1
+65 0 U VSS
+64 0 U REGIN
+63 0 U VCC
+62 0 U SW
+61 0 U VM
+60 0 U PB9
+59 0 U PB8
+58 0 U PB7
+57 0 U PB6
+56 0 U PB5
+55 0 U PB4
+54 0 U PB3
+53 0 U PD2
+52 0 U SCREF
+51 0 U PA15
+50 0 U PA14
+49 0 U PA13
+
+*END*
+*REMARK* SamacSys ECAD Model
+13817852/1522187/2.50/65/2/Integrated Circuit

@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aebe5ab7-8fed-4780-976d-0a0303ac14a7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 22.86 24.13)
+		(size 99.06 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1558ba05-206a-453e-9b21-db9d391a4e58")
+		(property "Sheetname" "Phase U"
+			(at 22.86 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phase_U.kicad_sch"
+			(at 22.86 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb/955d8acc-11ea-4edc-b2a7-50f1a5b90526"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 142.24)
+		(size 99.06 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a65bd532-3769-4268-8c21-985d97f61f7b")
+		(property "Sheetname" "Phase W"
+			(at 22.86 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phase_W.kicad_sch"
+			(at 22.86 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb/955d8acc-11ea-4edc-b2a7-50f1a5b90526"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 87.63)
+		(size 99.06 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b587ff0c-b7e6-4b0f-8660-d3cefd22a9ae")
+		(property "Sheetname" "Phase V"
+			(at 22.86 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phase_v.kicad_sch"
+			(at 22.86 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC"
+				(path "/796e85ee-4c78-482f-8b73-3b2f64a234eb/955d8acc-11ea-4edc-b2a7-50f1a5b90526"
+					(page "6")
+				)
+			)
+		)
+	)
+)
