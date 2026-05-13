@@ -1,0 +1,14 @@
+# KiCad backup og temp filer
+*-backups/
+*.lck
+fp-info-cache
+_autosave*
+*.000
+*.bak
+
+# KiCad projekt cache
+*.kicad_prl
+
+# OS filer
+.DS_Store
+Thumbs.db
