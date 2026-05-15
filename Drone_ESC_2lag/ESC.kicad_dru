@@ -2,10 +2,6 @@
 
 (rule "QFN_escape"
     (condition "A.intersectsArea('IC1_escape') || B.intersectsArea('IC1_escape')")
-    (constraint clearance (min 0.2mm))
+    (constraint clearance (min 0.15mm))
 )
 
-(rule "USB_escape"
-    (condition "A.intersectsArea('USB_escape') || B.intersectsArea('USB_escape')")
-    (constraint clearance (min 0.2mm))
-)
