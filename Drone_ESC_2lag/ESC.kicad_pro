@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -189,9 +189,12 @@
       "track_widths": [
         0.0,
         0.1,
-        0.11,
         0.2,
-        0.3
+        0.3,
+        0.5,
+        0.7,
+        1.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -476,7 +479,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -487,24 +490,54 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.3,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 1.4,
+        "via_drill": 0.8
+      },
+      {
+        "clearance": 0.3,
+        "name": "Gate_drive(GHS*, GLS*)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.4,
+        "name": "PHASE_U/V/W",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "via_diameter": 1.4,
+        "via_drill": 0.8
+      },
+      {
+        "clearance": 0.4,
         "diff_pair_gap": 0.5,
         "diff_pair_width": 0.3,
         "microvia_diameter": 0.4,
         "microvia_drill": 0.2,
-        "name": "VM/power",
+        "name": "VM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 4.0,
-        "via_diameter": 1.3,
-        "via_drill": 0.6
+        "track_width": 3.0,
+        "via_diameter": 1.4,
+        "via_drill": 0.8
       }
     ],
     "meta": {
@@ -514,12 +547,28 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "VDDA"
+        "netclass": "VM",
+        "pattern": "VM"
       },
       {
-        "netclass": "VM/power",
-        "pattern": "VM"
+        "netclass": "PHASE_U/V/W",
+        "pattern": "PHASE_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Gate_drive(GHS*, GLS*)",
+        "pattern": "BOOT*"
+      },
+      {
+        "netclass": "Gate_drive(GHS*, GLS*)",
+        "pattern": "GHS*"
+      },
+      {
+        "netclass": "Gate_drive(GHS*, GLS*)",
+        "pattern": "GLS*"
       }
     ]
   },
